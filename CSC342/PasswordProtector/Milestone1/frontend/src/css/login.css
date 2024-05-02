@@ -1,0 +1,110 @@
+.page-header {
+    background-color: #5094A9;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+
+@media ( min-width: 0 ) and ( max-width: 435px ) {
+    .page-header h2 {
+        color: white;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .form-group {
+        padding: 10vw 5vw;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .container {
+        margin: 5% 1%;
+        padding-top: 1%;
+        background-color: #5094A9;
+        border-radius: .65rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-width: 10%;
+        padding: 0 1vw;
+        max-width: 90%;
+        height: 50vh;
+    }
+
+    .form-control {
+        text-align: center;
+    }
+
+}
+
+@media ( min-width: 436px ) {
+    .page-header h2 {
+        color: white;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    .form-group {
+        padding: 10vw 5vw;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .email-label {
+        padding-right: 2rem;
+    }
+
+    .container {
+        margin: 10% 10%;
+        padding-top: 1%;
+        background-color: #5094A9;
+        border-radius: .65rem;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        min-width: 20%;
+        padding: 0 1vw;
+        max-width: 80%;
+    }
+
+    .form-control {
+        text-align: center;
+        width: 100%;
+        max-width: 40vw;
+        margin-left: 20%;
+    }
+
+}
+
+.form-group label {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    font-weight: 500;
+    color: white;
+}
+
+.form-group button {
+    display: block;
+    margin: 0 auto;
+    background: rgba(10, 20, 21, 0.266);
+    border-color: #5094A9;
+    
+}
+
+.img-fluid.img-thumbnail {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+}

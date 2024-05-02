@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html, body {
+
+}
+
+header h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+    margin: 5px;
+    margin-bottom: 20px;
+    
+}
+
+main {
+    display: flex;
+
+}
+
+section {
+    width: 50%;
+}
+
+
+
+.name {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.name .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.name div {
+    width: 50%;
+}
+
+.price {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.price .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.price div {
+    width: 50%;
+}
+
+.coffee {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.coffee .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.coffee div {
+    width: 50%;
+}
+
+.chocolate {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.chocolate .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.chocolate div {
+    width: 50%;
+}
+
+.milk {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.milk .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.milk div {
+    width: 50%;
+}
+
+.sugar {
+    padding: 5px;
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.sugar .textfield {
+    width: 50%;
+    background-color: rgb(188, 187, 187);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sugar div {
+    width: 50%;
+}
+
+.addRecipe {
+    background-color: grey;
+    border-width: 5px;
+    border-color: black;
+    font-size: medium;
+
+}
+
+.homeButton {
+    padding-left: 10px;
+}
+.home {
+    background-color: grey;
+    border-width: 5px;
+    border-color: black;
+    font-size: medium;
+}
+
+.recipeButton {
+    padding-top: 20px;
+    text-align: center;
+}
+.addIngredient {
+    background-color: grey;
+    border-width: 5px;
+    border-color: black;
+    font-size: medium;
+
+    
+}
+
+.ingredientButton {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.removeIngredient {
+
+    background-color: grey;
+    border-width: 5px;
+    border-color: black;
+    font-size: medium;
+}
+
+.removeIngredientButton {
+    text-align: center;
+    padding-top: 20px;
+}
+.ingredientsList .top {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: grey;
+}
+
+.list li {
+    background-color: rgb(188, 187, 187);
+    padding: 5px;
+    margin: 10px;
+    margin-right: 20px;
+}

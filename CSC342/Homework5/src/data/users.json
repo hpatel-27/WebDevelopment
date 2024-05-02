@@ -1,0 +1,55 @@
+{
+  "1": {
+      "id": 1,
+      "first_name": "Harsh",
+      "last_name": "Patel",
+      "username": "hpatel",
+      "avatar": "https://robohash.org/veniamdoloresenim.png?size=64x64&set=set1",
+      "salt": "1pdj4md7n24zr5u3wy3olp1r1a6p7otw",
+      "password": "fa618ff05c687488bd740bd958a03380b47f75d61bd2172afa428954df92b55b"
+  },
+  "2": {
+      "id": 2,
+      "first_name": "Ken",
+      "last_name": "Kaneki",
+      "username": "kkaneki",
+      "avatar": "https://robohash.org/ipsamolestiaeat.png?size=64x64&set=set1",
+      "salt": "k974s9egj23sujb7jhltggqh0dnss2eh",
+      "password": "de67fbed51baa01ec9843db58bffafd28dfb02619875626002ccfe4533d353a1"
+
+
+  },
+  "3": {
+      "id": 3,
+      "first_name": "Eren",
+      "last_name": "Yeager",
+      "username": "eyeager",
+      "avatar": "https://robohash.org/eosinciduntquam.png?size=64x64&set=set1",
+      "salt": "nhug7j4pps5zjceyjzgan5ftbnnngipf",
+      "password": "f5a05548ea49258d40eecf7afabc04b55f68953d5dc67bfd9dc90df7b51c7574"
+
+
+  },
+  "4": {
+      "id": 4,
+      "first_name": "Anakin",
+      "last_name": "Skywalker",
+      "username": "awalker",
+      "avatar": "https://robohash.org/praesentiumharumaliquid.png?size=64x64&set=set1",
+      "salt": "7qk5hbkh2hpo7252ncuv2mxpk8mded0p",
+      "password": "397080a248bf517bfbe5b3b994eb566cd37e8cb24121331c14ee92b351bcbb80"
+
+
+  },
+  "5": {
+      "id": 5,
+      "first_name": "Kawhi",
+      "last_name": "Leonard",
+      "username": "kleonard",
+      "avatar": "https://robohash.org/necessitatibusoccaecatifuga.png?size=64x64&set=set1",
+      "salt": "hlejo01eq93t1862nxmr1a4cv6naypw7",
+      "password": "e744fd8303d95446446aaffc9ebc321f22bcbdbf2cd5419526bd0cbd1ef65920"
+
+
+  }
+}

@@ -1,0 +1,41 @@
+.page-header {
+    background-color: pink;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.p-2 h2 a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 50px;
+    padding-top: 5px;
+    background-color: pink;
+    border-radius: .65rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    padding: 30px;
+}
+
+.form-group label {
+    margin-left: 3px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+.form-group button {
+    margin-left: 45%;
+    background: rgba(224, 17, 134, 0.266);
+    border-color: pink;
+}

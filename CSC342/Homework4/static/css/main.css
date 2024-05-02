@@ -1,0 +1,123 @@
+.page-header {
+    position: relative;
+    background-color: pink;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5rem;
+    padding-left: 45%;
+}
+
+.page-header nav, .page-header #user {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.page-header h2 a {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#user {
+    margin-left: auto;
+}
+
+.page-header nav h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#user a {
+    text-decoration: none;
+    color: white;
+}
+
+#user a:hover {
+    text-decoration: none;
+    background-color: rgb(231, 104, 123);
+
+}
+
+.create-howl {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.card {
+    width: 41rem;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.card-body {
+    border: 1px solid #fec6d8;
+    border-radius: 5px;
+    background-color: rgba(246, 173, 185, 0.808);
+}
+
+div.card-body button {
+    color: white;
+    margin-left: 1%;
+    background: #ff97b6;
+    border-color: pink;
+    float: right;
+}
+
+div.card-body .btn.btn-primary:hover {
+    background-color: rgb(231, 104, 123);
+    border-color: pink;
+}
+
+div.card-body .text-howl {
+    padding-left: 5px;
+    border-color: pink;
+    border-radius: 5px;
+}
+
+div.card-body .text-howl:focus {
+    outline: 1px solid pink;
+    border-color: pink;
+}
+
+.howl-info img {
+    width: 8%;
+    margin-right: 1%;
+}
+
+.howl-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.howl-info p {
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+p.howl-date {
+    margin-left: 45%;
+    float: right;
+    font-style: italic;
+}
+
+#howl-container .card {
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+#howl-container:nth-child(3) {
+    border-color: pink;
+}
+
+#howl-container a img {
+    width: 100%;
+}

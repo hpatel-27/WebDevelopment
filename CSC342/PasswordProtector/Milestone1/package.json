@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "all": "^0.0.0",
+    "nodemon": "^3.1.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0"
+  }
+}

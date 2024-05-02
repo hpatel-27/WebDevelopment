@@ -1,0 +1,187 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: "DM Serif Text", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+html {
+/* INSERT COOL STUFF HERE ( FONT ) */
+    background: rgb(255,255,255);
+    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238, 238, 238, 0.363) 13%, rgba(228, 227, 227, 0.19) 37%, rgba(228, 227, 227, 0.609) 62%, rgba(246,246,246,1) 87%, rgba(255,255,255,1) 100%);  */
+    background: rgba(139, 151, 151, 0.246);
+    height: 100%;
+}
+
+.tophalf {
+    display: flex;
+    height: 50%;
+}
+
+.bottomhalf {
+    display: flex;
+    height: 50%;
+}
+
+.senderwrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    /* background-color: grey; */
+
+    margin-left: 200px;
+    /* margin-right: 20px; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, hsl(202, 51%, 65%), #9bd7fb,#B0E0FC, #C1E9FC, #D9F2FE, #b2dde9);
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.senderinfo {
+    font-size: larger;
+    background-color: rgba(7, 73, 140, 0.287);
+    width: 100%;
+    margin-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.sender {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sender div {
+    float: right;
+    padding: 10px 0;
+}
+.recipientwrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, hsl(202, 51%, 65%), #9BD7FB,#B0E0FC, #C1E9FC, #D9F2FE, #b2dde9);
+    border-radius: 15px;
+
+}
+
+.recipientinfo {
+    font-size: larger;
+    background-color: rgba(7, 73, 140, 0.287);
+    width: 100%;
+    margin-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+input[ type="file "] {
+    box-sizing: border-box;
+    padding: 10px;
+    
+    /* padding-left: 5px; */
+}
+
+input::file-selector-button {
+    /** to change the browse button */
+
+}
+
+.recipient {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.recipient div {
+    float: left;
+    padding: 10px 0;
+}
+
+
+.messageindicator {
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+.emaillabel {
+    padding-right: 15px;
+    margin-right: 10px;
+    
+}
+
+.emailfield {
+    margin-left: 18px;
+
+}
+.phonelabel {
+    margin-right: 8px;
+
+}
+
+.phonefield {
+    margin-left: 20px;
+
+}
+
+.paymentwrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    background: linear-gradient(0deg, hsla(202, 51%, 65%, 0.953), #9BD7FB,#B0E0FC, #C1E9FC, #D9F2FE, #b2dde9);
+    background-color: rgba(128, 128, 128, 0.187);
+    border-radius: 15px;
+
+}
+
+.paymentinfo {
+    font-size: larger;
+    background-color: rgba(7, 73, 140, 0.287);
+    width: 100%;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.payment {
+    padding-top: 10px;
+}
+
+.paymentwrapper .row {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    
+}
+
+.moveleft {
+    padding-left: 5px;
+}
+
+#preview {
+    min-width: none;
+    min-height: none;
+
+    max-width: 500px;
+    max-height: 500px;
+}

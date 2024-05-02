@@ -1,0 +1,172 @@
+.page-header {
+    position: relative;
+    background-color: pink;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5rem;
+    padding-left: 45%;
+}
+
+.page-header nav, .page-header #user {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.page-header h2 a {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#user {
+    margin-left: auto;
+}
+
+.page-header nav h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#user a {
+    text-decoration: none;
+    color: white;
+}
+
+#user a:hover {
+    text-decoration: none;
+    background-color: rgb(231, 104, 123);
+
+}
+
+.user-container {
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.user-header {
+    padding: 1% 2%;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.user-header div {
+    margin: 10px 5px 0 10px;
+
+}
+
+.user-header img {
+    width: 13%;
+
+}
+
+div.container button {
+    color: white;
+    margin-left: 1%;
+    background: #ff97b6;
+    border-color: pink;
+    margin-left: 60%;
+    
+}
+
+
+div.container .btn.btn-primary:hover {
+    background-color: rgb(231, 104, 123);
+    border-color: pink;
+}
+
+.dropdown-item img {
+    width: 10%;
+
+}
+
+.howls-card-header {
+    display: flex;
+}
+.howls-card-header img {
+    width: 15%;
+}
+
+.user-info p {
+    color: white;
+}
+
+.card {
+    width: 41rem;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.card-body {
+    border: 1px solid #fec6d8;
+    border-radius: 5px;
+    background-color: rgba(246, 173, 185, 0.808);
+}
+
+
+div.card-body .text-howl {
+    padding-left: 5px;
+    border-color: pink;
+    border-radius: 5px;
+}
+
+div.card-body .text-howl:focus {
+    outline: 1px solid pink;
+    border-color: pink;
+}
+
+.howl-info img {
+    width: 8%;
+    margin-right: 1%;
+}
+
+.howl-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.howl-info p {
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+p.howl-date {
+    margin-left: 45%;
+    float: right;
+    font-style: italic;
+}
+
+#user-howls .card {
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+#user-howls:nth-child(3) {
+    border-color: pink;
+}
+
+#user-howls a img {
+    width: 100%;
+}
+
+.dropdown {
+    padding-top: 5%;
+}
+
+a.btn.btn-secondary.dropdown-toggle {
+    background-color: #ff97b6;
+    color: white;
+    border-color: white;
+}

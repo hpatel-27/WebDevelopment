@@ -1,0 +1,152 @@
+.profile-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .side-bar {
+    width: 250px;
+    background-color: #7B9EA9;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #5094A9;
+    height: 90vh;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  .profile-info {
+    background-color: #7B9EA9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .profile-info-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-info-section label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .profile-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .change-password-section {
+    background-color: #7B9EA9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .change-password-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .main-menu-btn, .sign-out-btn, .update-profile-btn, .change-password-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .button-secondary:hover {
+    background-color: #545b62;
+  }
+  
+  .button-info {
+    background-color: #17a2b8;
+  }
+  
+  .button-info:hover {
+    background-color: #138496;
+  }
+
+  .sidebar .site {
+    background-color: rgb(61, 58, 58);
+    padding: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+
+  .side-bar {
+    background-color: #7B9EA9;
+    padding: 10px;
+  }
+
+/* Responsive design adjustments */
+@media (min-width: 768px) {
+  /* For tablets and larger screens */
+  .home-container {
+    flex-direction: row;
+  }
+
+  .side-bar {
+    flex: 1;
+  }
+
+  .main-content {
+    flex: 3;
+  }
+
+  .account {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .account-section {
+    width: 48%; /* Adjust width so they sit side by side */
+  }
+}
+
+@media (min-width: 992px) {
+  /* For desktops and larger screens */
+  .side-bar {
+    flex: 1;
+  }
+
+  .main-content {
+    flex: 4;
+  }
+
+}

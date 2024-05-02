@@ -1,0 +1,125 @@
+.home-container {
+   display: flex;
+   flex-direction: column;
+   background-color: #5094A9;
+ }
+ 
+ .side-bar {
+   background-color: #7B9EA9;
+   padding: 10px;
+ }
+ 
+ .new-group-btn {
+   width: 100%;
+   margin-bottom: 10px;
+ }
+ 
+ .sidebar .site {
+   background-color: rgb(61, 58, 58);
+   padding: 8px;
+   margin-bottom: 5px;
+   cursor: pointer;
+   border: 1px solid #ddd;
+ }
+ 
+ .main-content {
+   padding: 10px;
+   background-color: #5094A9;
+ }
+ 
+ .profile-btn {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+ }
+ 
+ .account-management {
+   background-color: #7B9EA9;
+   padding: 15px;
+ }
+ 
+ .account-header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+ }
+ 
+ .site-name-btn {
+   flex-grow: 1;
+   margin-right: 5px;
+ }
+ 
+ .new-account-btn {
+   flex-shrink: 0;
+ }
+ 
+ .account {
+   display: flex;
+   flex-direction: column;
+   /* background-color: #7B9EA9; */
+ }
+ 
+ .account-section {
+   background-color: #7B9EA9;
+   padding: 10px;
+   margin-bottom: 10px;
+ }
+ 
+ .account-form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .input-username,
+ .input-password,
+ .input-notes {
+   margin: 5px 0;
+   padding: 8px;
+   border: 1px solid #ccc;
+ }
+ 
+ .input-notes {
+   height: 60px;
+   resize: vertical;
+ }
+ 
+ .save-btn {
+   margin-top: 10px;
+ }
+ 
+ /* Responsive design adjustments */
+ @media (min-width: 768px) {
+   /* For tablets and larger screens */
+   .home-container {
+     flex-direction: row;
+   }
+ 
+   .side-bar {
+     flex: 1;
+   }
+ 
+   .main-content {
+     flex: 3;
+   }
+ 
+   .account {
+     flex-direction: row;
+     justify-content: space-between;
+   }
+ 
+   .account-section {
+     width: 48%; /* Adjust width so they sit side by side */
+   }
+ }
+ 
+ @media (min-width: 992px) {
+   /* For desktops and larger screens */
+   .side-bar {
+     flex: 1;
+   }
+ 
+   .main-content {
+     flex: 4;
+   }
+ }
+ 

@@ -1,0 +1,112 @@
+html, body {
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+.change-password-section {
+  text-align: center; 
+}
+
+.main-content {
+  text-align: center; 
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #5094A9;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column; 
+  background-color: #5094A9;
+  height: 100vh;
+}
+
+.side-bar {
+  background-color: #7B9EA9;
+  padding: 10px;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-group-btn,
+.sidebar .site {
+  background-color: rgb(138, 174, 183);
+  border: 1px solid #dddddd;
+  color: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-header, .profile-info, .change-password-section {
+  background-color: #7B9EA9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.password-input, .profile-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.main-menu-btn, .sign-out-btn, .update-profile-btn, .change-password-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover,
+.update-profile-btn:hover,
+.sign-out-btn:hover,
+.main-menu-btn:hover,
+.change-password-btn:hover {
+  background-color: #545b62;
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row; 
+  }
+
+  .side-bar {
+    width: 25%; 
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+
+#sign-out:hover, #update-profile:hover {
+  background-color: #175d69;
+}
+
+#sign-out:hover, #update-profile:hover {
+  background-color: #175d69;
+}
+
+#logo-img {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#logo-container {
+  background-color: rgba(255, 255, 255, 0);
+  min-width: 7vw;
+  width: 7vw;
+}

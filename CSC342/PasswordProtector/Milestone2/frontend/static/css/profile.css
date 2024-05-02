@@ -1,0 +1,173 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .profile-container {
+      display: flex;
+      height: 100vh;
+      background-color: #5094A9;
+    }
+    
+    .side-bar {
+      width: 250px;
+      background-color: #7B9EA9;
+      padding: 20px;
+    }
+    
+    .main-content {
+      flex-grow: 1;
+      padding: 20px;
+      background-color: #5094A9;
+      height: 90vh;
+    }
+    
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+    
+    .profile-info {
+      background-color: #7B9EA9;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-info button, .profile-info a {
+      margin-left: 35%;
+    }
+    
+    .profile-info-section {
+      margin-bottom: 20px;
+    }
+    
+    .profile-info-section label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .profile-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .change-password-section {
+      background-color: #7B9EA9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .change-password-section h2 {
+      margin-bottom: 20px;
+    }
+    
+    .password-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .main-menu-btn, .sign-out-btn, .update-profile-btn, .change-password-btn {
+      display: block;
+      width: 30%;
+      padding: 2%;
+      margin-top: 3%;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .sign-out-btn, .update-profile-btn {
+      background-color: #138496;
+    }
+
+
+    #sign-out:hover, #update-profile:hover {
+      background-color: #175d69;
+    }
+    
+  
+    .sidebar .site {
+      background-color: rgb(61, 58, 58);
+      padding: 8px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      border: 1px solid #ddd;
+    }
+  
+    .side-bar {
+      background-color: #7B9EA9;
+      padding: 10px;
+    }
+  
+  /* Responsive design adjustments */
+  @media (min-width: 768px) {
+    /* For tablets and larger screens */
+    .home-container {
+      flex-direction: row;
+    }
+  
+    .side-bar {
+      flex: 1;
+    }
+  
+    .main-content {
+      flex: 3;
+    }
+  
+    .account {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .account-section {
+      width: 48%; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .side-bar {
+      flex: 1;
+    }
+  
+    .main-content {
+      flex: 4;
+    }
+  
+  }
+
+  #logo-img {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  #logo-container {
+    background-color: rgba(255, 255, 255, 0);
+    min-width: 7vw;
+    width: 7vw;
+  }
+
+  .main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .block-container {
+    margin: 0 auto;
+  }
+
+  .card-block {
+    padding-bottom: 10%;
+  }
+

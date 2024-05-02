@@ -1,0 +1,47 @@
+.page-header {
+    background-color: pink;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h2 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.page-header p {
+    color: white;
+
+}
+
+.d-inline-flex.p-2 button {
+    color: white;
+    margin-left: 1%;
+    background: #ff97b6;
+    border-color: pink;
+}
+
+nav.d-inline-flex.p-2 .btn.btn-primary:hover {
+    background-color: rgb(231, 104, 123);
+    border-color: pink;
+}
+
+nav.d-inline-flex.p-2 p {
+    margin-top: 10%;
+    margin-right: 2%;
+    color: white;
+}
+
+main h1 {
+    text-align: center;
+}
