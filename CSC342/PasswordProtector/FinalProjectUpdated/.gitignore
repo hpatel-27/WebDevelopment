@@ -1,0 +1,9 @@
+.DS_*
+node_modules
+*.log
+*.gz
+.env
+
+database/data/
+
+passwords.txt
